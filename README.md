@@ -12,17 +12,6 @@ O esquema original foi refinado para suportar:
 2.  **Pagamentos Múltiplos:** Um cliente pode cadastrar diversas formas de pagamento (cartão, boleto, pix), resolvido com uma relação 1:N.
 3.  **Entrega:** Controle de status e código de rastreio vinculado ao pedido.
 
-## 📂 Estrutura do Projeto
-- `/src/01_schema.sql`: Script DDL para criação do banco e tabelas.
-- `/src/02_data.sql`: Script DML para população de dados de teste.
-- `/src/03_queries.sql`: Consultas SQL complexas (JOINs, HAVING, Agregações).
-
-## 🚀 Como Rodar
-1. Clone o repositório.
-2. Importe o script `01_schema.sql` no seu servidor MySQL.
-3. Execute o script `02_data.sql` para carregar os dados.
-4. Utilize o script `03_queries.sql` para validar as regras de negócio.
-
 ## 📊 Perguntas de Negócio Respondidas
 As queries elaboradas respondem a questões como:
 - Quantos pedidos foram feitos por cada cliente?
